@@ -17,7 +17,7 @@ class Daftar extends MX_Controller {
 			redirect(site_url());
 		} else {
 			$this->db->where("id_peserta", $uri);
-			$x = $this->db->get("peserta")->row();
+			$x = $this->db->get("peserta_fix")->row();
 			// echo $this->db->last_query();
 			$data["uri"] = $x->nama;
 			$data["seb"] = $x->gambar;
