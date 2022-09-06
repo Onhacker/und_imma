@@ -142,9 +142,9 @@
                 
                 <h2 >Undangan Pernikahan<br>Senin, 03 Oktober 2022</h2>
                 <div class="gla_slide_midtitle">Imma & Irwan</div>
-                <label>Dear : </label>
+                <label>kepada Yth. <?php echo $seb ?> </label>
                 
-                <h2><?php echo $seb." ".$uri ?></h2>
+                <h2><?php echo $uri ?></h2>
                 <a href="#gla_content" onClick="music();" class="btn btn-primary  blink">Buka Undangan</a>
                  <!-- <a class="btn btn-primary" href="#gla_content">Lihat Undangan</a> -->
 
